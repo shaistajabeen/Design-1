@@ -1,0 +1,419 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+#header{
+	height: 100vh;
+	background: url('../images/header-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+@media (min-width: 320px) {
+  #mainNav {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+      padding: 0.2em 2em !important;
+      text-transform: none;
+      transition: all 0.3s ease 0s;
+    }
+    #mainNav.navbar-shrink {
+	    background: #fff;
+	    padding-bottom: 10px;
+	    padding-top: 10px;
+	    box-shadow: 0px 1px 5px 2px #26226233;
+	}
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 3px 0;
+  }
+  .navbar-shrink a{
+    color: #000 !important;
+  }
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background: transparent !important;
+    padding-top: 20px;
+}
+#navbarSupportedContent a {
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+}
+a.nav-link:hover{
+    color: #ee3568 !important;
+}
+a.navbar-brand img {
+    width: 100px;
+}
+img.logo-color {
+    display: none;
+}
+.navbar-shrink .navbar-brand img.logo-color {
+    display: block;
+}
+.navbar-shrink .navbar-brand img.logo-white {
+    display: none;
+}
+.hero {
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+.hero-content h1 {
+    font-size: 70px;
+    color: #fff;
+    font-weight: 700;
+}
+.hero-content p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+    width: 75%;
+}
+.container-fluid .col-12 {
+    padding: 0;
+}
+.service-image img {
+    width: 100%;
+}
+.service-content h2 {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+}
+.service-content h2:before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 70px;
+    background: #ee3568;
+    bottom: -5px;
+    left: 3px;
+    transform: translate(0%, 0%);
+}
+.service-content p {
+    margin-top: 15px;
+    font-size: 20px;
+}
+section#food-delivery {
+    padding: 60px 0px;
+}
+section#pick-up {
+    padding-bottom: 60px;
+}
+section#dry-cleaning {
+    padding-bottom: 60px;
+}
+section#shop-from-home {
+    padding-bottom: 60px;
+}
+section#drag-store {
+    padding-bottom: 60px;
+}
+.free-up-left img {
+    width: 100%;
+}
+.free-up-left {
+    position: relative;
+}
+.free-upright-text {
+    background: #ee3568;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 90px;
+    margin-left: -70px;
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 0px 0px 100px 0px;
+}
+.free-up-left-img-col {
+    padding-right: 0;
+}
+section#free-up-day {
+    padding: 60px;
+}
+.free-up-right h4 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.free-up-right p {
+    color: #fff;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.deliverable-service img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px -2px #a6b5d2;
+    position: relative;
+    margin-top: 40px;
+    
+}
+.deliverable-service {
+    transition: .3s ease;
+}
+.deliverable-service:hover {
+    transform: translate(0px, -50px);
+}
+.deliverable-service h4 {
+    position: absolute;
+    bottom: 15px;
+    font-size: 50px;
+    color: #ee3568;
+    margin-left: 30px;
+}
+.section-title h2 {
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    margin-bottom: 80px;
+}
+.section-title h2:before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 70px;
+    background: #ee3568;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+section#all-delivered {
+    background: #fbfbfb;
+    padding: 60px 0px;
+}
+#app-download {
+    background: url(../images/img_11.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 630px;
+    display: flex;
+    align-items: center;
+}
+.app-download-content a {
+    border: 1px solid #fff;
+    display: inline-block;
+    width: 150px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+.app-download-content a:hover{
+    background: #ee3568;
+    border: 1px solid #ee3568;
+}
+.app-download-content a img {
+    width: 100%;
+}
+.app-download-content h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 25px;
+}
+.footer-logo img {
+    width: 80px;
+}
+section#copyright {
+    padding: 20px 0px;
+    background: #fff;
+}
+.footer-text p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+}
+
+
+
+@media (max-width: 1199.98px) {
+	.hero-content h1 {
+	    font-size: 65px;
+	}
+	.hero-content p {
+	    color: #fff;
+	    width: 80%;
+	}
+	.free-upright-text {
+	    height: 395px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.hero-content h1 {
+	    font-size: 70px;
+	    text-align: center;
+	}
+	.hero-content.wow.fadeInUp {
+	    width: 75%;
+	    margin: 0 auto;
+	}
+	.hero-content p {
+	    width: 85%;
+	    margin: 0 auto;
+	    text-align: center;
+	}
+	.service-content h2 {
+	    font-size: 30px;
+	}
+	.free-upright-text {
+	    height: 279px;
+	    padding: 35px;
+	    margin-top: 50px;
+	    border-radius: 0px 0px 50px 0px;
+	    margin-left: -50px;
+	}
+	.free-up-right h4 {
+	    font-size: 25px;
+	}
+	.deliverable-service h4 {
+	    font-size: 35px;
+	}
+	.app-download-content h1 {
+	    color: #fff;
+	    font-size: 43px;
+	    font-weight: 600;
+	    line-height: 55px;
+	    margin-bottom: 25px;
+	}
+	button.navbar-toggler {
+	    color: #fff !important;
+	    border: 1px solid #fff !important;
+	    font-size: 25px !important
+	}
+	.navbar-shrink button.navbar-toggler {
+	    color: #262262 !important;
+	    border: 1px solid #262262 !important;
+	    font-size: 25px !important
+	}
+}
+
+@media (max-width: 767.98px) {
+	.service-content {
+	    margin-top: 100px;
+	    margin-bottom: 100px;
+	}
+	section#food-delivery, section#pick-up, section#dry-cleaning, section#shop-from-home, 
+	section#drag-store {
+	    padding: 0px;
+	}
+	section#free-up-day {
+	    padding: 0px 0px 60px 0px;
+	}
+	.free-upright-text {
+	    height: 370px;
+	    padding: 35px;
+	    margin-top: 4px;
+	    border-radius: 0px 0px 50px 0px;
+	    margin-left: 40px;
+	    margin-top: -100px;
+	}
+	.free-up-left-img-col {
+	    padding-right: 0;
+	    padding-left: 0;
+	}
+	.deliverable-service h4 {
+	    font-size: 27px;
+	    margin-left: 15px;
+	}
+	.deliverable-service:hover {
+	    transform: translate(0px, -30px);
+	}
+	.app-download-content.wow.fadeInUp {
+	    text-align: center;
+	}
+	.app-download-content h1 {
+	    font-size: 55px;
+	    line-height: 65px;
+	}
+	section#food-delivery {
+	    padding-top: 60px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.free-upright-text {
+	    height: 325px;
+	    padding: 30px;
+	    margin-top: 4px;
+	    border-radius: 0px 0px 50px 0px;
+	    margin-left: 0px;
+	    margin-top: 0px;
+	}
+	.hero-content.wow.fadeInUp {
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.hero-content h1 {
+	    font-size: 45px;
+	    text-align: center;
+	}
+	.service-content {
+	    text-align: center;
+	}
+	.service-content h2:before {
+	    height: 3px;
+	    bottom: -8px;
+	    left: 50%;
+	    transform: translate(-50%, 0%);
+	}
+	.section-title h2 {
+	    font-size: 35px;
+	}
+	.app-download-content h1 {
+	    font-size: 35px;
+	    line-height: 45px;
+	}
+	.app-download-content a {
+	    width: 115px;
+	}
+	#app-download {
+	    background-position: 63% center;
+	    height: 420px;
+	}
+	.footer-logo img {
+	    width: 55px;
+	}
+	.footer-logo.wow.fadeInUp {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 10px;
+	}
+	.footer-text p {
+	    margin: 0;
+	    font-size: 14px;
+	    font-weight: 300;
+	    color: #000;
+	    margin-top: 10px;
+	}
+	#mainNav {
+	    padding-top: 10px;
+	}
+}
+
+
+
+
+
